@@ -1,0 +1,15 @@
+{
+  // 타입스크립트 파일의 위치
+  "include": ["src"],
+  //outDir : 컴파일후 ts -> js 파일 위치
+  //target : js 버전
+  //lib : 정의 파일(TS 런타임환경)!
+  //strict : 타입스크립트가 엄격모드로 보호
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    "lib": ["ES6", "DOM"],
+    "strict": true,
+    "allowJs": true
+  }
+}
