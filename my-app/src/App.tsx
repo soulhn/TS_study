@@ -3,7 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 // import Learn1 from "./components/Learn1.tsx";
 
-import Learn1 from "./components/learn1";
+import Learn1 from "./components/Learn1";
 function App() {
   return (
     <div className="App">
