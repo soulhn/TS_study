@@ -4,7 +4,8 @@ import "./App.css";
 import EventBubbling from "./components/EventBubbling";
 import Learn1 from "./components/Learn1";
 import Learn2 from "./components/Learn2";
-import Learn3 from "./components/Learn1";
+import Learn3 from "./components/Learn3";
+import Learn4 from "./components/Learn4";
 import EventCapturing from "./components/EventCapturing";
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </li>
           <li>
             <Link to="/learn3">Learn3</Link>
+          </li>
+          <li>
+            <Link to="/learn4">Learn4</Link>
           </li>
           <li>
             <Link to="/eventBubbling">eventBubbling</Link>
@@ -39,6 +43,7 @@ function App() {
         <Route path="/learn1" element={<Learn1 />} />
         <Route path="/learn2" element={<Learn2 />} />
         <Route path="/learn3" element={<Learn3 />} />
+        <Route path="/learn4" element={<Learn4 />} />
         <Route path="/eventBubbling" element={<EventBubbling />}></Route>
         <Route path="/eventCapturing" element={<EventCapturing />}></Route>
       </Routes>
