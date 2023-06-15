@@ -7,6 +7,7 @@ import Learn2 from "./components/Learn2";
 import Learn3 from "./components/Learn3";
 import Learn4 from "./components/Learn4";
 import Learn5 from "./components/Learn5";
+import Learn6 from "./components/Learn6";
 
 import EventCapturing from "./components/EventCapturing";
 
@@ -17,6 +18,7 @@ function App() {
     { path: "/learn3", component: <Learn3 />, name: "Learn3" },
     { path: "/learn4", component: <Learn4 />, name: "Learn4" },
     { path: "/learn5", component: <Learn5 />, name: "Learn5" },
+    { path: "/learn6", component: <Learn6 />, name: "Learn6" },
   ];
 
   return (
